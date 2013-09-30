@@ -14,5 +14,8 @@ You will need just to merge some folders (`application` and `static`, if you hav
 =======
 Just copy all the repository and paste it on your CodeIgniter root folder, behind "application" and "system".
 You will need just to merge some folders (`application` and 'static', if you have one)
+<<<<<<< HEAD
 >>>>>>> origin/master
+=======
+>>>>>>> aea3752... Update README
   
