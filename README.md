@@ -8,14 +8,6 @@ Charisma is a HTML theme created by Muahammad Usman (https://github.com/usmanhal
 
 How to use it?
 ----
-<<<<<<< HEAD
 Just copy all the repository and paste it on your CodeIgniter root folder, behind `application` and `system`.
 You will need just to merge some folders (`application` and `static`, if you have one)
-=======
-Just copy all the repository and paste it on your CodeIgniter root folder, behind "application" and "system".
-You will need just to merge some folders (`application` and 'static', if you have one)
-<<<<<<< HEAD
->>>>>>> origin/master
-=======
->>>>>>> aea3752... Update README
   
