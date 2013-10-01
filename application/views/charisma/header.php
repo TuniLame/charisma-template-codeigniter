@@ -12,14 +12,17 @@
 		http://twitter.com/halalit_usman
 	-->
 <meta charset="utf-8">
-<title>Free HTML5 Bootstrap Admin Template</title>
+<title><?php echo $title; ?></title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description"
 	content="Charisma, a fully featured, responsive, HTML5, Bootstrap admin template.">
 <meta name="author" content="Muhammad Usman">
-
+<?php $base_url = base_url(); ?>
+<script type="text/javascript">
+root = "<?php echo $base_url; ?>";
+</script>
 <!-- The styles -->
-<link id="bs-css" href="<?php echo base_url(); ?>static/css/bootstrap-cerulean.css" rel="stylesheet">
+<link id="bs-css" href="<?php echo $base_url; ?>static/css/bootstrap-cerulean.css" rel="stylesheet">
 <style type="text/css">
 body {
 	padding-bottom: 40px;
@@ -29,22 +32,22 @@ body {
 	padding: 9px 0;
 }
 </style>
-<link href="<?php echo base_url(); ?>static/css/bootstrap-responsive.css" rel="stylesheet">
-<link href="<?php echo base_url(); ?>static/css/charisma-app.css" rel="stylesheet">
-<link href="<?php echo base_url(); ?>static/css/jquery-ui-1.8.21.custom.css" rel="stylesheet">
-<link href='<?php echo base_url(); ?>static/css/fullcalendar.css' rel='stylesheet'>
-<link href='<?php echo base_url(); ?>static/css/fullcalendar.print.css' rel='stylesheet' media='print'>
-<link href='<?php echo base_url(); ?>static/css/chosen.css' rel='stylesheet'>
-<link href='<?php echo base_url(); ?>static/css/uniform.default.css' rel='stylesheet'>
-<link href='<?php echo base_url(); ?>static/css/colorbox.css' rel='stylesheet'>
-<link href='<?php echo base_url(); ?>static/css/jquery.cleditor.css' rel='stylesheet'>
-<link href='<?php echo base_url(); ?>static/css/jquery.noty.css' rel='stylesheet'>
-<link href='<?php echo base_url(); ?>static/css/noty_theme_default.css' rel='stylesheet'>
-<link href='<?php echo base_url(); ?>static/css/elfinder.min.css' rel='stylesheet'>
-<link href='<?php echo base_url(); ?>static/css/elfinder.theme.css' rel='stylesheet'>
-<link href='<?php echo base_url(); ?>static/css/jquery.iphone.toggle.css' rel='stylesheet'>
-<link href='<?php echo base_url(); ?>static/css/opa-icons.css' rel='stylesheet'>
-<link href='<?php echo base_url(); ?>static/css/uploadify.css' rel='stylesheet'>
+<link href="<?php echo $base_url; ?>static/css/bootstrap-responsive.css" rel="stylesheet">
+<link href="<?php echo $base_url; ?>static/css/charisma-app.css" rel="stylesheet">
+<link href="<?php echo $base_url; ?>static/css/jquery-ui-1.8.21.custom.css" rel="stylesheet">
+<link href='<?php echo $base_url; ?>static/css/fullcalendar.css' rel='stylesheet'>
+<link href='<?php echo $base_url; ?>static/css/fullcalendar.print.css' rel='stylesheet' media='print'>
+<link href='<?php echo $base_url; ?>static/css/chosen.css' rel='stylesheet'>
+<link href='<?php echo $base_url; ?>static/css/uniform.default.css' rel='stylesheet'>
+<link href='<?php echo $base_url; ?>static/css/colorbox.css' rel='stylesheet'>
+<link href='<?php echo $base_url; ?>static/css/jquery.cleditor.css' rel='stylesheet'>
+<link href='<?php echo $base_url; ?>static/css/jquery.noty.css' rel='stylesheet'>
+<link href='<?php echo $base_url; ?>static/css/noty_theme_default.css' rel='stylesheet'>
+<link href='<?php echo $base_url; ?>static/css/elfinder.min.css' rel='stylesheet'>
+<link href='<?php echo $base_url; ?>static/css/elfinder.theme.css' rel='stylesheet'>
+<link href='<?php echo $base_url; ?>static/css/jquery.iphone.toggle.css' rel='stylesheet'>
+<link href='<?php echo $base_url; ?>static/css/opa-icons.css' rel='stylesheet'>
+<link href='<?php echo $base_url; ?>static/css/uploadify.css' rel='stylesheet'>
 
 <!-- The HTML5 shim, for IE6-8 support of HTML5 elements -->
 <!--[if lt IE 9]>
